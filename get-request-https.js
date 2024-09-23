@@ -1,0 +1,29 @@
+const https = require('https')
+const readline = require('readline')
+
+const inputs = process.argv
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+    });
+    let output = "";
+
+rl.on('line', url => 
+    {
+
+        https.get(url, (response) =>{
+            let data = '';
+            response.on('data', (chunk) => {
+            data += chunk;
+            });
+            
+            response.on('end', () =>{
+                process.stdout.write(data)
+            })
+            })
+            .on('error', (error) => {
+                process.stdout.write(error);
+            })
+    })
+

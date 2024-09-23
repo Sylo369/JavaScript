@@ -1,0 +1,56 @@
+{
+  "Circles": [
+    {
+      "radius": 10,
+      "fillColor": "black",
+      "borderColor": "yellow"
+    },
+    {
+      "radius": 11,
+      "fillColor": "green",
+      "borderColor": "blue"
+    },
+    {
+      "radius": 12,
+      "fillColor": "red",
+      "borderColor": "yellow"
+    },
+    {
+      "radius": 13,
+      "fillColor": "purple",
+      "borderColor": "pink"
+    },
+    {
+      "radius": 14,
+      "fillColor": "cyan",
+      "borderColor": "brown"
+    }
+  ],
+  "Rectangles": [
+    {
+      "radius": 16,
+      "fillColor": "black",
+      "borderColor": "yellow"
+    },
+    {
+      "radius": 17,
+      "fillColor": "green",
+      "borderColor": "blue"
+    },
+    {
+      "radius": 18,
+      "fillColor": "red",
+      "borderColor": "yellow"
+    },
+    {
+      "radius": 19,
+      "fillColor": "purple",
+      "borderColor": "pink"
+    },
+    {
+      "radius": 20,
+      "fillColor": "cyan",
+      "borderColor": "brown"
+    }
+  ]
+}
